@@ -18,9 +18,9 @@ function changeColor(event) {
     });
 
     if (themeImg.src.includes("icon-moon")) {
-        themeImg.src = "/documentation/images/icon-sun.svg";
+        themeImg.src = "images/icon-sun.svg";
     } else {
-        themeImg.src = "/documentation/images/icon-moon.svg";
+        themeImg.src = "images/icon-moon.svg";
     }
 }
 
