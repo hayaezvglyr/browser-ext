@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="/documentation/css/style.css">
+  <title>Frontend Mentor | Browser extensions manager UI</title>
+
+
+</head>
+<body>
+  <header class="header-section">
+    <img src="/documentation/images/logo.svg" alt="Extensions Logo">
+    <button class="theme-logo" id="theme-btn" type="button">
+      <img src="/documentation/images/icon-moon.svg" id="theme-img" alt="Moon Logo">
+    </button>
+  </header>
+
+  <main>
+    <div class="main-container">
+      <div class="top-extension-section">
+        <h1>Extensions List</h1>
+        <div class="extensions-btn">
+          <button id="btnAll" type="button">All</button>
+          <button id="btnActive" type="button">Active</button>
+          <button id="btnInactive" type="button">Inactive</button>
+        </div>
+      </div>
+
+      <div class="main-section-boxes" id="main-sec">
+
+
+        <div class="container">
+          <div class="layout-container">
+            <img src="/documentation/images/logo-devlens.svg" alt="DevLens logo">
+            <div class="text">
+              <h2>DevLens</h2>
+              <p>Quickly inspect page layouts
+                and visualize element
+                boundaries.
+              </p>
+            </div>
+          </div>
+
+          <div class="remove-slide-btn">
+            <button type="button" class="remove-btn">Remove</button>
+            <div class="toggle-btn">
+              <input type="checkbox" id="toggle1">
+              <label for="toggle1" class="button"></label>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="layout-container">
+            <img src="/documentation/images/logo-style-spy.svg" alt="DevLens logo">
+            <div class="text">
+              <h2>StyleSpy</h2>
+              <p>Instantly analyze and copy CSS
+                from any webpage element.
+              </p>
+            </div>
+          </div>
+
+          <div class="remove-slide-btn">
+            <button type="button" class="remove-btn">Remove</button>
+            <div class="toggle-btn">
+              <input type="checkbox" id="toggle2">
+              <label for="toggle2" class="button"></label>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="layout-container">
+            <img src="/documentation/images/logo-speed-boost.svg" alt="DevLens logo">
+            <div class="text">
+              <h2>SpeedBoost</h2>
+              <p>Optimizes browser resource
+                usage to accelerate page
+                loading.
+              </p>
+            </div>
+          </div>
+
+          <div class="remove-slide-btn">
+            <button type="button" class="remove-btn">Remove</button>
+            <div class="toggle-btn">
+              <input type="checkbox" id="toggle3">
+              <label for="toggle3" class="button"></label>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="layout-container">
+            <img src="/documentation/images/logo-json-wizard.svg" alt="DevLens logo">
+            <div class="text">
+              <h2>JSONWizard</h2>
+              <p>Formats, validates, and prettifies JSON responses in-browser.
+              </p>
+            </div>
+          </div>
+
+          <div class="remove-slide-btn">
+            <button type="button" class="remove-btn">Remove</button>
+            <div class="toggle-btn">
+              <input type="checkbox" id="toggle4">
+              <label for="toggle4" class="button"></label>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="layout-container">
+            <img src="/documentation/images/logo-tab-master-pro.svg" alt="DevLens logo">
+            <div class="text">
+              <h2>TabMaster Pro</h2>
+              <p>Organizes browser tabs into groups and sessions.
+              </p>
+            </div>
+          </div>
+
+          <div class="remove-slide-btn">
+            <button type="button" class="remove-btn">Remove</button>
+            <div class="toggle-btn">
+              <input type="checkbox" id="toggle5">
+              <label for="toggle5" class="button"></label>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="layout-container">
+            <img src="/documentation/images/logo-viewport-buddy.svg" alt="DevLens logo">
+            <div class="text">
+              <h2>ViewportBuddy</h2>
+              <p>Simulates various screen resolutions directly within the browser.</p>
+            </div>
+          </div>
+
+          <div class="remove-slide-btn">
+            <button type="button" class="remove-btn">Remove</button>
+            <div class="toggle-btn">
+              <input type="checkbox" id="toggle6">
+              <label for="toggle6" class="button"></label>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="layout-container">
+            <img src="/documentation/images/logo-markup-notes.svg" alt="DevLens logo">
+            <div class="text">
+              <h2>Markup Notes</h2>
+              <p>Enables annotation and notes directly onto webpages for collaborative debugging.
+              </p>
+            </div>
+          </div>
+
+          <div class="remove-slide-btn">
+            <button type="button" class="remove-btn">Remove</button>
+            <div class="toggle-btn">
+              <input type="checkbox" id="toggle7">
+              <label for="toggle7" class="button"></label>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="layout-container">
+            <img src="/documentation/images/logo-grid-guides.svg" alt="DevLens logo">
+            <div class="text">
+              <h2>GridGuides</h2>
+              <p>Overlay customizable grids and alignment guides on any webpage.
+              </p>
+            </div>
+          </div>
+
+          <div class="remove-slide-btn">
+            <button type="button" class="remove-btn">Remove</button>
+            <div class="toggle-btn">
+              <input type="checkbox" id="toggle8">
+              <label for="toggle8" class="button"></label>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="layout-container">
+            <img src="/documentation/images/logo-palette-picker.svg" alt="DevLens logo">
+            <div class="text">
+              <h2>Palette Picker</h2>
+              <p>Instantly extracts color palettes from any webpage.
+              </p>
+            </div>
+          </div>
+
+          <div class="remove-slide-btn">
+            <button type="button" class="remove-btn">Remove</button>
+            <div class="toggle-btn">
+              <input type="checkbox" id="toggle9">
+              <label for="toggle9" class="button"></label>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="layout-container">
+            <img src="/documentation/images/logo-link-checker.svg" alt="DevLens logo">
+            <div class="text">
+              <h2>Link Checker</h2>
+              <p>Scans and highlights broken links on any page.
+              </p>
+            </div>
+          </div>
+
+          <div class="remove-slide-btn">
+            <button type="button" class="remove-btn">Remove</button>
+            <div class="toggle-btn">
+              <input type="checkbox" id="toggle10">
+              <label for="toggle10" class="button"></label>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="layout-container">
+            <img src="/documentation/images/logo-dom-snapshot.svg" alt="DevLens logo">
+            <div class="text">
+              <h2>DOM Snapshot</h2>
+              <p>Capture and export DOM structures quickly.
+              </p>
+            </div>
+          </div>
+
+          <div class="remove-slide-btn">
+            <button type="button" class="remove-btn">Remove</button>
+            <div class="toggle-btn">
+              <input type="checkbox" id="toggle11">
+              <label for="toggle11" class="button"></label>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="layout-container">
+            <img src="/documentation/images/logo-console-plus.svg" alt="DevLens logo">
+            <div class="text">
+              <h2>ConsolePlus</h2>
+              <p>Enhanced developer console with advanced filtering and logging.
+              </p>
+            </div>
+          </div>
+
+         <div class="remove-slide-btn">
+            <button type="button" class="remove-btn">Remove</button>
+            <div class="toggle-btn">
+              <input type="checkbox" id="toggle12">
+              <label for="toggle12" class="button"></label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="/documentation/js/index.js"></script>
+</body>
+</html>
