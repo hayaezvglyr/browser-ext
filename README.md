@@ -7,7 +7,7 @@ This project was built purely for **practice and learning** using a challenge pr
 🛠️ Built With
 - HTML
 - CSS
-- -JavaScript
+- JavaScript
 
 🙋‍♂️ Author
 - GitHub: [@hayaezvglyr](https://github.com/hayaezvglyr)
